@@ -1,0 +1,52 @@
+.all-products-dash  {
+  /* padding: 15px; */
+  /* padding-top: 30px;
+  padding-left: 50px; */
+  /* margin-left: 80%; */
+  margin-left: 15%;
+  padding: 50px;
+}
+table {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  overflow-x: scroll;
+}
+tr {
+  /* border: 1px solid #00000058; */
+  border-bottom: 1px solid #fff;
+  font-size: 18px;
+  /* border-radius: 5px; */
+}
+thead tr {
+  background-color: rgb(74, 6, 138);
+  color: #fff;
+}
+tr:nth-child(even) {
+  background-color: #0000000d;
+  color: #000;
+}
+tr:nth-child(even) .fa-trash,
+tr:nth-child(even) .fa-eye,
+tr:nth-child(even) .fa-pen-to-square {
+  color: #000;
+}
+td,
+th {
+  padding: 15px;
+  text-transform: capitalize;
+}
+#edit {
+  cursor: pointer;
+}
+tr .fa-trash:hover,
+.fa-eye,
+.fa-pen-to-square {
+  cursor: pointer;
+}
+
+.overflow{
+  /* width: 50% !important; */
+  overflow-x: auto !important;
+
+}

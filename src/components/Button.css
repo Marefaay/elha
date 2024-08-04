@@ -1,0 +1,41 @@
+button {
+  border: 2px solid blueviolet;
+  font-size: 18px;
+  font-weight: bold;
+  /* position: relative; */
+  transition: 0.3s ease-in-out;
+  text-transform: capitalize;
+  background-color: transparent;
+  padding: 15px 18px;
+  border-radius: 5px;
+  color:#000
+}
+/* button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 0%;
+  height: 100%;
+  animation-name: rounding;
+  animation-duration: 0.9s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  z-index: 1;
+  transition: 0.5s ease-in-out;
+}
+button:hover::before {
+  width: 1%;
+  transition: 0.5s ease-in-out;
+} */
+button:hover {
+   color: #fff;
+   
+   background-color: rgb(105, 10, 193);
+}
+.active-btn{
+  color: #fff;
+   
+   background-color: rgb(105, 10, 193);
+}

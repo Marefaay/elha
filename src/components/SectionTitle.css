@@ -1,0 +1,21 @@
+#section-title{
+    background-color: blueviolet;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+@media (max-width:567px) {
+    #section-title{
+     margin: auto;
+    }
+  }
+@media (max-width:768px) {
+    #section-title{
+     margin: auto;
+    }
+  }

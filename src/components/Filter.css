@@ -1,0 +1,10 @@
+.filter .container .row div {
+  width: auto;
+  margin: 5px 0;
+}
+@media (max-width: 567px) {
+  .filter .container .row div button {
+    width: 200px;
+    margin: 5px 0;
+  }
+}

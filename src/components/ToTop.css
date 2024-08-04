@@ -1,0 +1,16 @@
+#top{
+    bottom: 2%;
+    /* right: 2%; */
+    cursor: pointer;
+    background-color: blueviolet;
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+.hide{
+    right: -20%;
+}
+.show{
+    right: 2%;
+}

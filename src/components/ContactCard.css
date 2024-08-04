@@ -1,0 +1,28 @@
+.contact-card {
+  box-shadow: 0 0 6px 1px blueviolet;
+  width: 70%;
+transition: 0.3s ease-in-out;
+  margin: auto;
+  height: 180px;
+  background-color: blueviolet;
+  color: #fff;
+  /* position: relative; */
+  /* margin-top: 25px; */
+}
+.contact-card:hover{
+  box-shadow: 0 9px 34px -5px blueviolet;
+}
+.icon {
+  /* background-color: blueviolet; */
+  box-shadow: 0 0 0 blueviolet;
+  /* padding: 15px; */
+  border-radius: 8px;
+  /* color: blueviolet; */
+}
+.title {
+  text-transform: capitalize;
+
+}
+#mail{
+  color: #fff !important;
+}

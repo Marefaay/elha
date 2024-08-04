@@ -1,0 +1,148 @@
+.side-bar {
+  background-color: rgb(74, 6, 138);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 17%;
+  /* padding: 15px; */
+  /* overflow: hidden; */
+  /* margin: 0 !important; */
+}
+.market-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.market-logo img {
+  width: 50%;
+}
+.market-logo h2 {
+  color: #fff;
+  letter-spacing: 2px;
+}
+.seprator {
+  position: relative;
+  width: 100%;
+  padding: 15px 0;
+}
+.seprator span:first-of-type {
+  margin: auto;
+  display: block;
+  width: 50%;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  /* position: relative; */
+}
+.seprator span:nth-of-type(2) {
+  /* margin: auto; */
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  z-index: 2;
+}
+.links {
+  /* position: relative; */
+  width: 100%;
+}
+.links ul {
+  padding: 0 !important;
+  list-style: none;
+  color: #fff;
+  margin-top: 25px;
+  width: 100%;
+  margin: 0;
+  /* text-align: center; */
+  transition: 0.5s ease-in-out;
+}
+.link {
+  color: #fff;
+}
+.links ul li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  font-size: 23px;
+  padding: 10px 0;
+  width: 100%;
+  padding-left: 15px;
+  margin: 35px 0;
+  margin-left: 0 !important;
+  text-align: start;
+  /* border-top-right-radius: 50px; */
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.links ul li:hover {
+  background-color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.links ul li:hover .link {
+  color: rgb(74, 6, 138);
+}
+.links ul li:hover .link .fa-users,
+.links ul li:hover .link .fa-list,
+.links ul li:hover .link .fa-basket-shopping,
+.active-side-bar .link .fa-basket-shopping,
+.active-side-bar .link .fa-users,
+.active-side-bar .link .fa-list{
+  animation-name: moving;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+@keyframes moving {
+  100% {
+    transform: translateY(-10px);
+    /* transform: translate3d(-20px); */
+    /* transform: translateZ(-20px); */
+  }
+}
+
+.links ul li:last-child {
+  /* position: absolute;
+  bottom: -90%; */
+  margin-top: 60%;
+  /* width:20% ; */
+}
+.active-side-bar {
+  background-color: #fff;
+}
+.active-side-bar .link {
+  color: rgb(74, 6, 138);
+}
+@media (max-width:992px) {
+  .links ul li span{
+    display: none !important;
+  }
+  .fa-arrow-right-from-bracket,.fa-basket-shopping,.fa-list,.fa-users{
+    padding-left: 20px !important;
+  }
+  
+}
+@media (max-width:567px) {
+  .links ul li span{
+    display: none !important;
+  }
+  .fa-arrow-right-from-bracket,.fa-basket-shopping,.fa-list,.fa-users{
+    padding-left: 5px !important;
+  }
+  .market-logo h2{
+    font-size: 18px;
+
+  }
+  .seprator span:nth-of-type(2){
+    width: 15px;
+    height: 15px;
+  }
+}

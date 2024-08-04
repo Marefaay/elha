@@ -1,0 +1,48 @@
+.why-us {
+  background-color: #65646415;
+}
+.why-us-image {
+  width: 80%;
+  margin: auto;
+  /* height: 50px; */
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  position: relative;
+  height: 300px;
+}
+.why-us-image img {
+  width: 100%;
+  border-radius: 5px;
+  height: 300px;
+  position: absolute;
+  top: -25px;
+  left: -30px;
+  /* height: auto; */
+}
+.propirties .prop-box {
+  background-color: blueviolet;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.propirties .prop-box {
+  box-shadow: 0 9px 10px -2px #00000070;
+}
+.propirties .prop-box:hover {
+  box-shadow: 15px 9px 11px -6px #00000070;
+}
+.propirties .prop-box span {
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-color: #fff;
+  color: blueviolet;
+  text-align: center;
+  padding-top: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.propirties .prop-box p {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.781);
+}

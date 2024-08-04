@@ -1,0 +1,46 @@
+.f-colunm span {
+  background-color: blueviolet;
+  width: 120px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+.f-colunm p {
+  font-weight: 500;
+  line-height: 1.8;
+  margin-top: 15px;
+
+  text-align: justify;
+}
+.btn {
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid blueviolet;
+  position: relative;
+}
+.btn::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  background-color: blueviolet;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    border: 2px solid blueviolet;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+.btn:hover::before {
+    width: 100%;
+}
+@media (max-width:567px) {
+  .f-colunm p{
+    text-align: center;
+  }
+  
+}

@@ -1,0 +1,44 @@
+.dash-categories {
+  margin-left: 15%;
+  padding: 50px;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+tr {
+  /* border: 1px solid #00000058; */
+  border-bottom: 1px solid #fff;
+  font-size: 18px;
+  /* border-radius: 5px; */
+}
+thead tr {
+  background-color: #4a068a;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background-color: #0000000d;
+  color: #000;
+}
+tr:nth-child(even) .fa-trash,
+tr:nth-child(even) .fa-eye,
+tr:nth-child(even) .fa-pen-to-square {
+  color: #000;
+}
+td,
+th {
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+tr .fa-trash:hover,
+.fa-pen-to-square {
+  cursor: pointer;
+}
+.overflow{
+  /* width: 50% !important; */
+  overflow-x: auto !important;
+
+}

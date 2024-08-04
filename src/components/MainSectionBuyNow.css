@@ -1,0 +1,102 @@
+.main {
+  position: relative;
+  background-color: blueviolet;
+
+  overflow: hidden;
+}
+.text-main h1 {
+  color: aliceblue;
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: capitalize;
+  /* margin-bottom: 10px; */
+}
+.text-main h1::first-line {
+  color: #38006c;
+}
+.text-main p {
+  /* letter-spacing: 1.2px; */
+  line-height: 1.4;
+  font-size: 18px;
+  text-align: justify;
+  width: 90%;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #ffffffc0;
+}
+.img-main {
+  animation-name: moving;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  transition: 0.5s ease-in-out all;
+}
+.img-main:hover {
+  animation-play-state: paused;
+}
+.img-main img{
+    transition: 0.5s ease-in-out all;
+}
+.img-main img:hover {
+  filter:saturate(0.3);
+}
+@keyframes moving {
+  100% {
+    transform: translateY(-15px);
+  }
+}
+@media (max-width:567px) {
+  .main{
+    text-align: center;
+  }
+  .main .text-main h1{
+    font-size: 45px;
+  }
+  .main .text-main p{
+    text-align: center;
+    /* font-size: 15px; */
+    padding: 15px;
+  }
+  
+}
+@media (max-width:768px) {
+  .main{
+    text-align: center;
+  }
+  .main .text-main{
+    text-align: center;
+    /* margin: auto */
+  }
+  .main .text-main h1{
+    font-size: 45px;
+  }
+  .main .text-main p{
+    text-align: center;
+    /* font-size: 15px; */
+    padding: 15px;
+    margin-left:50% ;
+    transform: translate(-50%);
+  }
+  
+}
+@media (max-width:992px) {
+  .main{
+    text-align: center;
+  }
+  .main .text-main{
+    text-align: center;
+    /* margin: auto */
+  }
+  .main .text-main h1{
+    font-size: 80px;
+  }
+  .main .text-main p{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    margin-left:50% ;
+    transform: translate(-50%);
+  }
+  
+}

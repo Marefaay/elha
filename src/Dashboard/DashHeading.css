@@ -1,0 +1,116 @@
+.add-type span {
+  display: block;
+  background-color: #4a068a;
+  color: #fff;
+  padding: 8px 15px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: 0.3s ease-in-out;
+}
+.add-type span #add {
+  color: #fff;
+}
+.add-type {
+  margin-left: 500px !important;
+}
+.add-type span:hover {
+  background-color: transparent;
+  border-color: rgb(74, 6, 138);
+  color: rgb(74, 6, 138);
+}
+.add-type span:hover #add {
+  color: rgb(74, 6, 138);
+  transition: 0.5s ease-in-out;
+  text-decoration: none;
+}
+@media (max-width: 1300px) {
+  .add-type span {
+    padding: 5px;
+    margin-left: 15px;
+  }
+  .add-type {
+    margin-left: 450px !important;
+  }
+  #add {
+    /* font-size: 20px; */
+  }
+  .heading h2 {
+    /* font-size: 19px; */
+    margin-right: 5px !important;
+    margin-top: 8px;
+  }
+  .head {
+    padding: 0 !important;
+    /* justify-content: center; */
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 1200px) {
+  .add-type span {
+    padding: 5px;
+    margin-left: 15px;
+  }
+  .add-type {
+    margin-left: 400px !important;
+  }
+  #add {
+    font-size: 20px;
+  }
+  .heading h2 {
+    font-size: 19px;
+    margin-right: 5px !important;
+    margin-top: 8px;
+  }
+  .head {
+    padding: 0 !important;
+    /* justify-content: center; */
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 992px) {
+  .add-type span {
+    padding: 5px;
+    margin-left: 15px;
+  }
+  .add-type {
+    margin-left: 200px !important;
+  }
+  #add {
+    font-size: 14px;
+  }
+  .heading h2 {
+    font-size: 19px;
+    margin-right: 5px !important;
+    margin-top: 8px;
+  }
+  .head {
+    padding: 0 !important;
+    /* justify-content: center; */
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 567px) {
+  .add-type span {
+    padding: 5px;
+    margin-left: 15px;
+  }
+  .add-type {
+    margin-left: 0px !important;
+  }
+  #add {
+    font-size: 14px;
+  }
+  .heading h2 {
+    font-size: 18px;
+    margin-right: 5px !important;
+    margin-top: 8px;
+  }
+  .head {
+    padding: 0 !important;
+    /* justify-content: center; */
+    flex-direction: column !important;
+  }
+}

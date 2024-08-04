@@ -1,0 +1,10 @@
+.dash-users {
+  margin-left: 15%;
+  padding: 50px;
+}
+.overflow{
+  /* width: 50% !important; */
+  overflow-x: auto !important;
+
+}
+
