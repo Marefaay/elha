@@ -10,7 +10,7 @@ function Scroller() {
   },[]);
   // console.log(scrollPosition);
   const position = `${scrollPosition}%`;
-  // console.log(position)
+  console.log(position)
   return (
     <div className="scoller">
       {/* <div id="scroll"  style={{width:`${position}`}}></div> */}
