@@ -1,6 +1,6 @@
-import DashboardNavbar from "./DashboardNavbar";
+
 import "./dashbody.css";
-import Products from "./Prds";
+
 import DashImg from "../../src/components/images/DashImg.png";
 function DashboardBody() {
   return (
@@ -12,7 +12,7 @@ function DashboardBody() {
         </div>
 
         <div className="dash-img">
-          <img src={DashImg} className="img-fluid" />
+          <img src={DashImg} className="img-fluid" alt="img"/>
         </div>
       </div>
       {/* <DashboardNavbar/> */}
