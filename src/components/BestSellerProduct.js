@@ -7,7 +7,7 @@ function BestSellerProduct(props) {
     <>
       <div className="best-seller-product">
         <div className="product-img">
-          <img src={props.product.image} className="img-fluid" />
+          <img src={props.product.image} className="img-fluid" alt="img" />
         </div>
         <div className="prdocut-title">
           <h1>{props.product.title}</h1>
