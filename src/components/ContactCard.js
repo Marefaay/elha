@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import "../fontAwesome";
 import "./ContactCard.css";
 function ContactCard(props) {
