@@ -11,7 +11,7 @@ function ProductHome(props) {
     <div className="card mb-3 pt-3">
       <div className="row ">
         <div className="crad-image">
-          <img src={props.product.image} className="img-fluid" />
+          <img src={props.product.image} className="img-fluid" alt="img" />
         </div>
         <div className="card-title pt-2 pb-2">
           <Link to={`products/${props.product.id}`} id="link">
