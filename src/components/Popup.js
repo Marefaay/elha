@@ -1,6 +1,6 @@
 import Swal from "sweetalert2";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+
 
 function Popup() {
   useEffect(() => {
