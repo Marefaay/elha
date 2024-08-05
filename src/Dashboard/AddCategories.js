@@ -1,7 +1,7 @@
 import "./AddProduct.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Products from "./Prds";
+
 import { useNavigate } from "react-router-dom";
 
 function AddProduct(props) {
