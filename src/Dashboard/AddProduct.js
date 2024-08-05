@@ -1,7 +1,7 @@
 import "./AddProduct.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Products from "./Prds";
+
 import { useNavigate } from "react-router-dom";
 
 function AddProduct(props) {
@@ -13,7 +13,7 @@ function AddProduct(props) {
   const [descError, setDescError] = useState(null);
   const [desc, setDesc] = useState(" ");
   const [price, setPrice] = useState(" ");
-  const [count, setCount] = useState(" ");
+ 
   const [category, setCategory] = useState(" ");
   const [products, setProducts] = useState([]);
   const navigate = useNavigate();
@@ -44,10 +44,7 @@ function AddProduct(props) {
     setPrice(event.target.value);
     // console.log(event.target.value);
   };
-  const countHandle = (event) => {
-    setCount(event.target.value);
-    // console.log(event.target.value);
-  };
+ 
   const categoryHandle = (event) => {
     setCategory(event.target.value);
     // console.log(event.target.value);
@@ -65,7 +62,7 @@ function AddProduct(props) {
   const formSubmit = (e) => {
     e.preventDefault();
 
-    if (title != " " && desc != " " && price != " ") {
+    if (title !== " " && desc !== " " && price !== " ") {
       console.log(title, desc, price);
       // fetch("https://fakestoreapi.com/products", {
       //   method: "POST",
