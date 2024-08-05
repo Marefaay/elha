@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../fontAwesome";
 // import "./ProductDetails.css";
 import "./AdminProductDetails.css"
@@ -26,7 +25,7 @@ function AdminProductDetails(props) {
         <div className="row">
         <div className="col-lg-6">
             <div className="dash-product-image mt-5  ">
-              <img src={product.image} className="img-fluid  " />
+              <img src={product.image} className="img-fluid  " alt="product-img" />
             </div>
           </div>
           <div className="col-lg-6">
