@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../fontAwesome";
-import Person from "../components/images/Asmaa.jpg";
+
 import "./DashboardNav.css";
 function DashboardNavbar() {
   const name=window.localStorage.getItem("userName")
