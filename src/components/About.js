@@ -1,5 +1,5 @@
 import AboutUsMainSection from "./AboutUsMainSection";
-import SectionTitle from "./SectionTitle";
+
 import WhoWeAre from "./WhoWeAre";
 import WhyUs from "./WhyUs";
 
