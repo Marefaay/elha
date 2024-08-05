@@ -8,7 +8,7 @@ function WhyUs() {
     <div className="why-us p-5 ">
       <SectionTitle title="Why Us" />
       <div className="why-us-image  mt-5">
-        <img src={Whyus} className="img-fluid" />
+        <img src={Whyus} className="img-fluid" alt="img" />
       </div>
       <div className="propirties mt-5 mb-2">
         <div className="container">
