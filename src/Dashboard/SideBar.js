@@ -23,7 +23,7 @@ function SideBar() {
       console.log(activeIsExist);
       for (let i = 0; i < lis.length; i++) {
         // console.log(lis[i].dataset.name);
-        if (lis[i].dataset.name == activeIsExist) {
+        if (lis[i].dataset.name === activeIsExist) {
           lis[i].classList.add("active-side-bar");
           // console.log(lis[navi])
         }
@@ -38,7 +38,7 @@ function SideBar() {
     <div className="side-bar ">
       <div className="market-name">
         <div className="market-logo">
-          <img src={marketLogo} className="img-fluid  mt-3 logo " />
+          <img src={marketLogo} className="img-fluid  mt-3 logo " alt="img"/>
           <h2>Halal</h2>
           <div className="seprator">
             <span></span>
