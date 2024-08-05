@@ -1,5 +1,5 @@
 import DashboardBody from "./DashboardBody";
-import SideBar from "./SideBar";
+
 
 function Dashboard(props) {
   props.showNavAndFoot(false);
