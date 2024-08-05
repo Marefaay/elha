@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import SectionTitle from "./SectionTitle";
 // import Product from "./ProductHome";
-import ProductHome from "./ProductHome";
-import Slider from "./Slider";
+
 import BestSellingBody from "./BestSellingBody";
 
 function BestSelling() {
@@ -15,7 +14,7 @@ function BestSelling() {
       .then((data) => setProduct(data))
       .catch((err) => console.log(err));
   });
-  // console.log(product);
+  console.log(product);
   return (
     <>
       <div className="our-products pt-5">
