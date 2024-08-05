@@ -23,7 +23,7 @@ function WhoWeAre() {
           </div>
           <div className="col-lg-6 p-5">
             <div className="who-we-are-image ">
-                <img src={WhoAre} className="img-fluid" img="alt"/>
+                <img src={WhoAre} className="img-fluid" alt="img"/>
             </div>
           </div>
         </div>
