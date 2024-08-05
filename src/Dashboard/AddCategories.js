@@ -30,7 +30,7 @@ function AddProduct(props) {
   const formSubmit = (e) => {
     e.preventDefault();
 
-    if (category != " ") {
+    if (category !== " ") {
       // console.log(title, desc, price);
       // fetch("https://fakestoreapi.com/products", {
       //   method: "POST",
