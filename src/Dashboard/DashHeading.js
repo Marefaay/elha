@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function DashHeading(props) {
   return (
     <div className="d-flex align-items-center justify-content-between p-5 pb-0 head ">
-      {props.type == "Users" ? (
+      {props.type === "Users" ? (
         <div>
           <div className="heading">
             <h2>All {props.type}</h2>
