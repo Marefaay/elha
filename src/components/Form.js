@@ -10,7 +10,7 @@ function FormSection() {
     const value = event.target.value;
     setEmail(value);
     console.log(gmailRegex.test(value));
-    if (gmailRegex.test(value) == false) {
+    if (gmailRegex.test(value) === false) {
       setEmailError(' Email must be as "name@gmail.com "');
     } else {
       setEmailError(null);
@@ -28,7 +28,7 @@ function FormSection() {
   };
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (gmailRegex.test(email) == true) {
+    if (gmailRegex.test(email) === true) {
       event.currentTarget.submit();
     }
     if (textarea > 20) {
