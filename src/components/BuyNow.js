@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import Filters from "./Filters";
 import ProductsList from "./ProductsList";
-import FilterBy from "./FilterBy";
+
 import MainSectionBuyNow from "./MainSectionBuyNow";
 import SectionTitle from "./SectionTitle.js";
 import "./BuyNow.css"
