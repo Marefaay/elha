@@ -10,7 +10,7 @@ function TestomialBody() {
         <div className="row">
           <div className="col-lg-3 test">
             <div className="clinet-image">
-              <img src={JohnWeek}id="john-image" className="img-fluid h-100 w-100" />
+              <img src={JohnWeek}id="john-image" className="img-fluid h-100 w-100" alt="img"/>
             </div>
           </div>
           <div className="col-lg-3 test">
@@ -26,7 +26,7 @@ function TestomialBody() {
           </div>
           <div className="col-lg-3 test">
             <div className="clinet-image">
-              <img src={Leonardo} className="img-fluid h-100 w-100" />
+              <img src={Leonardo} className="img-fluid h-100 w-100" alt="img"/>
             </div>
           </div>
           <div className="col-lg-3 test">
@@ -55,7 +55,7 @@ function TestomialBody() {
           </div>
           <div className="col-lg-3 test">
             <div className="clinet-image">
-              <img src={Asmaa} className="img-fluid h-100 w-100" />
+              <img src={Asmaa} className="img-fluid h-100 w-100"alt="img" />
             </div>
           </div>
 
@@ -71,7 +71,7 @@ function TestomialBody() {
           </div>
           <div className="col-lg-3 test">
             <div className="clinet-image">
-              <img src={Yasmin} id="yasmin-image" className="img-fluid h-100" />
+              <img src={Yasmin} id="yasmin-image" className="img-fluid h-100" alt="img" />
             </div>
           </div>
         </div>
