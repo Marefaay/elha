@@ -16,7 +16,7 @@ import ProductDetails from "./components/ProductDetails";
 import ContactPage from "./components/ContactPage";
 import Scroller from "./components/Scroller";
 import Dashboard from "./Dashboard/Dashboard";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import AdminProductDetails from "./Dashboard/AdminProductDetails";
 import Products from "./Dashboard/Prds";
 import SideBar from "./Dashboard/SideBar";
