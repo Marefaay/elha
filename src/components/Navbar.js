@@ -4,10 +4,8 @@ import "../components/Navbar.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../fontAwesome";
-import Cart from "./Cart";
 function Navbar() {
   const navLinks = document.getElementsByClassName("nav-item");
-  const nav = document.getElementsByClassName("navbar");
   const dasboardBtn = document.getElementById("dashboard");
   const name = window.localStorage.getItem("userName");
   const first = document.getElementById("first");
@@ -32,7 +30,7 @@ function Navbar() {
     const navActive = window.localStorage.getItem("nav-bar-active");
     if (navActive) {
       for (let i = 0; i < navLinks.length; i++) {
-        if (navLinks[i].dataset.nav == navActive) {
+        if (navLinks[i].dataset.nav === navActive) {
           console.log(navLinks[i]);
           navLinks[0].classList.remove("active");
 
@@ -55,7 +53,7 @@ function Navbar() {
       <nav className="navbar position-sticky  top-0 nav-light navbar-expand-lg bg-body-tertiary">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <img className="logo-width img-fluid logo-img" src={logo} />
+            <img className="logo-width img-fluid logo-img" src={logo} alt="img" />
           </Link>
           <div
             className="menu-bar d-xl-none  d-lg-block d-sm-block"
