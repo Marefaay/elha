@@ -1,8 +1,6 @@
 import ContactSection from "./ContactSection";
-import Filters from "./Filters";
-import Footer from "./Footer";
 import MainSection from "./MainSection";
-import Navbar from "./Navbar";
+
 // import OurProducts from "./BestSelling";
 // import Products from "./Products";
 import TestomialSection from "./TestomialSection";
