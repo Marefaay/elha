@@ -1,6 +1,5 @@
 // import mainSectionbg from "./images/mainSectionbg.png"
 import { Link } from "react-router-dom";
-import Button from "./Button";
 import SectionTitle from "./SectionTitle";
 import "./UnderMain.css"
 function UnderMain() {
