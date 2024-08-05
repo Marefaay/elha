@@ -22,7 +22,7 @@ function MainSectionBuyNow() {
             </div>
             <div className="col-lg-6">
               <div className="img-main">
-                <img src={BuyNowMain} className="img-fluid" />
+                <img src={BuyNowMain} className="img-fluid" alt="img" />
               </div>
             </div>
           </div>
